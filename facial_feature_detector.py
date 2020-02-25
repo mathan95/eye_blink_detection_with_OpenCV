@@ -10,6 +10,10 @@ import dlib
 import cv2
 import numpy as np
 
+####
+#change 2
+###
+
 detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor('shape_predictor_5_face_landmarks.dat')
 cam = cv2.VideoCapture(0)
